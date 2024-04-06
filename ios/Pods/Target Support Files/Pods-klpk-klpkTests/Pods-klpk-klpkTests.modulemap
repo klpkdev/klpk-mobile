@@ -1,0 +1,6 @@
+module Pods_klpk_klpkTests {
+  umbrella header "Pods-klpk-klpkTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

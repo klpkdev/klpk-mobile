@@ -1,0 +1,160 @@
+{
+  "identifier" : "0BDD8E43",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "8.99",
+      "familyShareable" : false,
+      "internalID" : "6472565479",
+      "localizations" : [
+        {
+          "description" : "1150 koin KLPK",
+          "displayName" : "1150 koin ",
+          "locale" : "id"
+        }
+      ],
+      "productID" : "5d89da442f8242b189e093b4d5901821",
+      "referenceName" : "1150 koin",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "6472564812",
+      "localizations" : [
+        {
+          "description" : "150 koin KLPK",
+          "displayName" : "150 koin",
+          "locale" : "id"
+        }
+      ],
+      "productID" : "21e7622bd0da4a66985a4339fe6586d5",
+      "referenceName" : "150 koin",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "11.99",
+      "familyShareable" : false,
+      "internalID" : "6472566470",
+      "localizations" : [
+        {
+          "description" : "1500 koin KLPK",
+          "displayName" : "1500 koin",
+          "locale" : "id"
+        }
+      ],
+      "productID" : "cc87c96e11bf44a78b80aad7d85e2dea",
+      "referenceName" : "1500 koin",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "1.99",
+      "familyShareable" : false,
+      "internalID" : "6472564742",
+      "localizations" : [
+        {
+          "description" : "220 koin KLPK",
+          "displayName" : "220 koin",
+          "locale" : "id"
+        }
+      ],
+      "productID" : "bad5b479d2894844a68f943a3425cd64",
+      "referenceName" : "220 koin",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "6472564996",
+      "localizations" : [
+        {
+          "description" : "380 koin KLPK",
+          "displayName" : "380 koin",
+          "locale" : "id"
+        }
+      ],
+      "productID" : "2f6e9346af7142e98b614233a3ff98c9",
+      "referenceName" : "380 koin",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "5.99",
+      "familyShareable" : false,
+      "internalID" : "6472565110",
+      "localizations" : [
+        {
+          "description" : "760 koin KLPK",
+          "displayName" : "760 koin",
+          "locale" : "id"
+        }
+      ],
+      "productID" : "928a03d3e3a540a084add26b4357da0b",
+      "referenceName" : "760 koin",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "6449801134",
+    "_developerTeamID" : "WJSUL49K66",
+    "_failTransactionsEnabled" : false,
+    "_lastSynchronizedDate" : 722162841.89437997,
+    "_locale" : "en_GB",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

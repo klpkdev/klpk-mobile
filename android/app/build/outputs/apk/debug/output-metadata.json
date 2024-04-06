@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.komunitaspatrickkellan.klpk",
+  "variantName": "debug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 13,
+      "versionName": "1.10",
+      "outputFile": "klpk-1.10(13)-debug.apk"
+    }
+  ],
+  "elementType": "File"
+}

@@ -1,0 +1,213 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.komunitaspatrickkellan.klpk"
+4    android:versionCode="13"
+5    android:versionName="1.10" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/nurulhidayat/Projects/klpk-mobile/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/nurulhidayat/Projects/klpk-mobile/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/nurulhidayat/Projects/klpk-mobile/android/app/src/main/AndroidManifest.xml:3:5-67
+12-->/Users/nurulhidayat/Projects/klpk-mobile/android/app/src/main/AndroidManifest.xml:3:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.125.0] /Users/nurulhidayat/.gradle/caches/transforms-3/4a61e9f94b8e86f750e53ee5c9a2af1c/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.125.0] /Users/nurulhidayat/.gradle/caches/transforms-3/4a61e9f94b8e86f750e53ee5c9a2af1c/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="com.android.vending.BILLING" />
+14-->[com.android.billingclient:billing-ktx:5.2.1] /Users/nurulhidayat/.gradle/caches/transforms-3/44648491060bcb5dff7de0f24720889b/transformed/jetified-billing-ktx-5.2.1/AndroidManifest.xml:9:5-67
+14-->[com.android.billingclient:billing-ktx:5.2.1] /Users/nurulhidayat/.gradle/caches/transforms-3/44648491060bcb5dff7de0f24720889b/transformed/jetified-billing-ktx-5.2.1/AndroidManifest.xml:9:22-64
+15    <!--
+16    This has been added to conform with requirement from Android 11 (API level 30) onwards
+17    (http://screen/9iGdBMRWDmVbRJ6), after getting confirmation in http://yaqs/995038231927980032#a1
+18    -->
+19    <queries>
+19-->[com.android.billingclient:billing:5.2.1] /Users/nurulhidayat/.gradle/caches/transforms-3/4a197fbf763c2a594bc240aa8604253b/transformed/jetified-billing-5.2.1/AndroidManifest.xml:16:5-20:15
+20        <intent>
+20-->[com.android.billingclient:billing:5.2.1] /Users/nurulhidayat/.gradle/caches/transforms-3/4a197fbf763c2a594bc240aa8604253b/transformed/jetified-billing-5.2.1/AndroidManifest.xml:17:9-19:18
+21            <action android:name="com.android.vending.billing.InAppBillingService.BIND" />
+21-->[com.android.billingclient:billing:5.2.1] /Users/nurulhidayat/.gradle/caches/transforms-3/4a197fbf763c2a594bc240aa8604253b/transformed/jetified-billing-5.2.1/AndroidManifest.xml:18:13-91
+21-->[com.android.billingclient:billing:5.2.1] /Users/nurulhidayat/.gradle/caches/transforms-3/4a197fbf763c2a594bc240aa8604253b/transformed/jetified-billing-5.2.1/AndroidManifest.xml:18:21-88
+22        </intent>
+23    </queries>
+24
+25    <application
+25-->/Users/nurulhidayat/Projects/klpk-mobile/android/app/src/main/AndroidManifest.xml:5:5-27:19
+26        android:name="com.komunitaspatrickkellan.klpk.MainApplication"
+26-->/Users/nurulhidayat/Projects/klpk-mobile/android/app/src/main/AndroidManifest.xml:6:7-38
+27        android:allowBackup="false"
+27-->/Users/nurulhidayat/Projects/klpk-mobile/android/app/src/main/AndroidManifest.xml:10:7-34
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.7.0] /Users/nurulhidayat/.gradle/caches/transforms-3/f54d7715bdd67345b5cc4ecca120437d/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->/Users/nurulhidayat/Projects/klpk-mobile/android/app/src/main/AndroidManifest.xml:8:7-41
+31        android:label="@string/app_name"
+31-->/Users/nurulhidayat/Projects/klpk-mobile/android/app/src/main/AndroidManifest.xml:7:7-39
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->/Users/nurulhidayat/Projects/klpk-mobile/android/app/src/main/AndroidManifest.xml:9:7-52
+33        android:theme="@style/AppTheme"
+33-->/Users/nurulhidayat/Projects/klpk-mobile/android/app/src/main/AndroidManifest.xml:11:7-38
+34        android:usesCleartextTraffic="true" >
+34-->/Users/nurulhidayat/Projects/klpk-mobile/android/app/src/debug/AndroidManifest.xml:8:9-44
+35        <activity
+35-->/Users/nurulhidayat/Projects/klpk-mobile/android/app/src/debug/AndroidManifest.xml:11:9-111
+36            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+36-->/Users/nurulhidayat/Projects/klpk-mobile/android/app/src/debug/AndroidManifest.xml:11:19-83
+37            android:exported="false" />
+37-->/Users/nurulhidayat/Projects/klpk-mobile/android/app/src/debug/AndroidManifest.xml:11:84-108
+38        <activity
+38-->/Users/nurulhidayat/Projects/klpk-mobile/android/app/src/main/AndroidManifest.xml:12:7-23:18
+39            android:name="com.komunitaspatrickkellan.klpk.MainActivity"
+39-->/Users/nurulhidayat/Projects/klpk-mobile/android/app/src/main/AndroidManifest.xml:13:9-37
+40            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+40-->/Users/nurulhidayat/Projects/klpk-mobile/android/app/src/main/AndroidManifest.xml:15:9-118
+41            android:exported="true"
+41-->/Users/nurulhidayat/Projects/klpk-mobile/android/app/src/main/AndroidManifest.xml:18:9-32
+42            android:label="@string/app_name"
+42-->/Users/nurulhidayat/Projects/klpk-mobile/android/app/src/main/AndroidManifest.xml:14:9-41
+43            android:launchMode="singleTask"
+43-->/Users/nurulhidayat/Projects/klpk-mobile/android/app/src/main/AndroidManifest.xml:16:9-40
+44            android:windowSoftInputMode="adjustResize" >
+44-->/Users/nurulhidayat/Projects/klpk-mobile/android/app/src/main/AndroidManifest.xml:17:9-51
+45            <intent-filter>
+45-->/Users/nurulhidayat/Projects/klpk-mobile/android/app/src/main/AndroidManifest.xml:19:9-22:25
+46                <action android:name="android.intent.action.MAIN" />
+46-->/Users/nurulhidayat/Projects/klpk-mobile/android/app/src/main/AndroidManifest.xml:20:13-65
+46-->/Users/nurulhidayat/Projects/klpk-mobile/android/app/src/main/AndroidManifest.xml:20:21-62
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->/Users/nurulhidayat/Projects/klpk-mobile/android/app/src/main/AndroidManifest.xml:21:13-73
+48-->/Users/nurulhidayat/Projects/klpk-mobile/android/app/src/main/AndroidManifest.xml:21:23-70
+49            </intent-filter>
+50        </activity>
+51        <activity
+51-->/Users/nurulhidayat/Projects/klpk-mobile/android/app/src/main/AndroidManifest.xml:24:7-26:9
+52            android:name="com.screenguard.ScreenGuardColorActivity"
+52-->/Users/nurulhidayat/Projects/klpk-mobile/android/app/src/main/AndroidManifest.xml:24:17-72
+53            android:exported="false"
+53-->[:react-native-screenguard] /Users/nurulhidayat/Projects/klpk-mobile/node_modules/react-native-screenguard/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+54            android:theme="@style/Theme.AppCompat.Translucent" />
+54-->/Users/nurulhidayat/Projects/klpk-mobile/android/app/src/main/AndroidManifest.xml:25:11-61
+55
+56        <provider
+56-->[:react-native-image-picker] /Users/nurulhidayat/Projects/klpk-mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+57            android:name="com.imagepicker.ImagePickerProvider"
+57-->[:react-native-image-picker] /Users/nurulhidayat/Projects/klpk-mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-63
+58            android:authorities="com.komunitaspatrickkellan.klpk.imagepickerprovider"
+58-->[:react-native-image-picker] /Users/nurulhidayat/Projects/klpk-mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-71
+59            android:exported="false"
+59-->[:react-native-image-picker] /Users/nurulhidayat/Projects/klpk-mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+60            android:grantUriPermissions="true" >
+60-->[:react-native-image-picker] /Users/nurulhidayat/Projects/klpk-mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+61            <meta-data
+61-->[:react-native-image-picker] /Users/nurulhidayat/Projects/klpk-mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:70
+62                android:name="android.support.FILE_PROVIDER_PATHS"
+62-->[:react-native-image-picker] /Users/nurulhidayat/Projects/klpk-mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+63                android:resource="@xml/imagepicker_provider_paths" />
+63-->[:react-native-image-picker] /Users/nurulhidayat/Projects/klpk-mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-67
+64        </provider>
+65        <provider
+65-->[:react-native-webview] /Users/nurulhidayat/Projects/klpk-mobile/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+66            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+66-->[:react-native-webview] /Users/nurulhidayat/Projects/klpk-mobile/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-83
+67            android:authorities="com.komunitaspatrickkellan.klpk.fileprovider"
+67-->[:react-native-webview] /Users/nurulhidayat/Projects/klpk-mobile/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-64
+68            android:exported="false"
+68-->[:react-native-webview] /Users/nurulhidayat/Projects/klpk-mobile/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+69            android:grantUriPermissions="true" >
+69-->[:react-native-webview] /Users/nurulhidayat/Projects/klpk-mobile/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+70            <meta-data
+70-->[:react-native-image-picker] /Users/nurulhidayat/Projects/klpk-mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:70
+71                android:name="android.support.FILE_PROVIDER_PATHS"
+71-->[:react-native-image-picker] /Users/nurulhidayat/Projects/klpk-mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+72                android:resource="@xml/file_provider_paths" />
+72-->[:react-native-image-picker] /Users/nurulhidayat/Projects/klpk-mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-67
+73        </provider>
+74
+75        <activity
+75-->[com.google.android.gms:play-services-auth:19.2.0] /Users/nurulhidayat/.gradle/caches/transforms-3/80089b413b3e6d5c0699651dad37acec/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:23:9-27:75
+76            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+76-->[com.google.android.gms:play-services-auth:19.2.0] /Users/nurulhidayat/.gradle/caches/transforms-3/80089b413b3e6d5c0699651dad37acec/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:24:13-93
+77            android:excludeFromRecents="true"
+77-->[com.google.android.gms:play-services-auth:19.2.0] /Users/nurulhidayat/.gradle/caches/transforms-3/80089b413b3e6d5c0699651dad37acec/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:25:13-46
+78            android:exported="false"
+78-->[com.google.android.gms:play-services-auth:19.2.0] /Users/nurulhidayat/.gradle/caches/transforms-3/80089b413b3e6d5c0699651dad37acec/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:26:13-37
+79            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+79-->[com.google.android.gms:play-services-auth:19.2.0] /Users/nurulhidayat/.gradle/caches/transforms-3/80089b413b3e6d5c0699651dad37acec/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:27:13-72
+80        <!--
+81            Service handling Google Sign-In user revocation. For apps that do not integrate with
+82            Google Sign-In, this service will never be started.
+83        -->
+84        <service
+84-->[com.google.android.gms:play-services-auth:19.2.0] /Users/nurulhidayat/.gradle/caches/transforms-3/80089b413b3e6d5c0699651dad37acec/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:33:9-37:51
+85            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+85-->[com.google.android.gms:play-services-auth:19.2.0] /Users/nurulhidayat/.gradle/caches/transforms-3/80089b413b3e6d5c0699651dad37acec/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:34:13-89
+86            android:exported="true"
+86-->[com.google.android.gms:play-services-auth:19.2.0] /Users/nurulhidayat/.gradle/caches/transforms-3/80089b413b3e6d5c0699651dad37acec/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:35:13-36
+87            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+87-->[com.google.android.gms:play-services-auth:19.2.0] /Users/nurulhidayat/.gradle/caches/transforms-3/80089b413b3e6d5c0699651dad37acec/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:36:13-107
+88            android:visibleToInstantApps="true" />
+88-->[com.google.android.gms:play-services-auth:19.2.0] /Users/nurulhidayat/.gradle/caches/transforms-3/80089b413b3e6d5c0699651dad37acec/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:37:13-48
+89
+90        <activity
+90-->[com.google.android.gms:play-services-base:18.1.0] /Users/nurulhidayat/.gradle/caches/transforms-3/7643099615938157956967b514882255/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+91            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+91-->[com.google.android.gms:play-services-base:18.1.0] /Users/nurulhidayat/.gradle/caches/transforms-3/7643099615938157956967b514882255/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+92            android:exported="false"
+92-->[com.google.android.gms:play-services-base:18.1.0] /Users/nurulhidayat/.gradle/caches/transforms-3/7643099615938157956967b514882255/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+93            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+93-->[com.google.android.gms:play-services-base:18.1.0] /Users/nurulhidayat/.gradle/caches/transforms-3/7643099615938157956967b514882255/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+94
+95        <meta-data
+95-->[com.google.android.gms:play-services-basement:18.1.0] /Users/nurulhidayat/.gradle/caches/transforms-3/1dde55739dfbd1601a1dc66f576019ba/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+96            android:name="com.google.android.gms.version"
+96-->[com.google.android.gms:play-services-basement:18.1.0] /Users/nurulhidayat/.gradle/caches/transforms-3/1dde55739dfbd1601a1dc66f576019ba/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+97            android:value="@integer/google_play_services_version" />
+97-->[com.google.android.gms:play-services-basement:18.1.0] /Users/nurulhidayat/.gradle/caches/transforms-3/1dde55739dfbd1601a1dc66f576019ba/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+98
+99        <provider
+99-->[androidx.emoji2:emoji2:1.0.0] /Users/nurulhidayat/.gradle/caches/transforms-3/fdc50a53bd110a7419d0f7da229ba29f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+100            android:name="androidx.startup.InitializationProvider"
+100-->[androidx.emoji2:emoji2:1.0.0] /Users/nurulhidayat/.gradle/caches/transforms-3/fdc50a53bd110a7419d0f7da229ba29f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+101            android:authorities="com.komunitaspatrickkellan.klpk.androidx-startup"
+101-->[androidx.emoji2:emoji2:1.0.0] /Users/nurulhidayat/.gradle/caches/transforms-3/fdc50a53bd110a7419d0f7da229ba29f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+102            android:exported="false" >
+102-->[androidx.emoji2:emoji2:1.0.0] /Users/nurulhidayat/.gradle/caches/transforms-3/fdc50a53bd110a7419d0f7da229ba29f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+103            <meta-data
+103-->[androidx.emoji2:emoji2:1.0.0] /Users/nurulhidayat/.gradle/caches/transforms-3/fdc50a53bd110a7419d0f7da229ba29f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+104                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+104-->[androidx.emoji2:emoji2:1.0.0] /Users/nurulhidayat/.gradle/caches/transforms-3/fdc50a53bd110a7419d0f7da229ba29f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+105                android:value="androidx.startup" />
+105-->[androidx.emoji2:emoji2:1.0.0] /Users/nurulhidayat/.gradle/caches/transforms-3/fdc50a53bd110a7419d0f7da229ba29f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+106            <meta-data
+106-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/nurulhidayat/.gradle/caches/transforms-3/0d1e744b67af75f639ee99a179b56a0f/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+107                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+107-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/nurulhidayat/.gradle/caches/transforms-3/0d1e744b67af75f639ee99a179b56a0f/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+108                android:value="androidx.startup" />
+108-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/nurulhidayat/.gradle/caches/transforms-3/0d1e744b67af75f639ee99a179b56a0f/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+109        </provider>
+110
+111        <meta-data
+111-->[com.android.billingclient:billing:5.2.1] /Users/nurulhidayat/.gradle/caches/transforms-3/4a197fbf763c2a594bc240aa8604253b/transformed/jetified-billing-5.2.1/AndroidManifest.xml:23:9-25:37
+112            android:name="com.google.android.play.billingclient.version"
+112-->[com.android.billingclient:billing:5.2.1] /Users/nurulhidayat/.gradle/caches/transforms-3/4a197fbf763c2a594bc240aa8604253b/transformed/jetified-billing-5.2.1/AndroidManifest.xml:24:13-73
+113            android:value="5.2.1" />
+113-->[com.android.billingclient:billing:5.2.1] /Users/nurulhidayat/.gradle/caches/transforms-3/4a197fbf763c2a594bc240aa8604253b/transformed/jetified-billing-5.2.1/AndroidManifest.xml:25:13-34
+114
+115        <activity
+115-->[com.android.billingclient:billing:5.2.1] /Users/nurulhidayat/.gradle/caches/transforms-3/4a197fbf763c2a594bc240aa8604253b/transformed/jetified-billing-5.2.1/AndroidManifest.xml:27:9-31:75
+116            android:name="com.android.billingclient.api.ProxyBillingActivity"
+116-->[com.android.billingclient:billing:5.2.1] /Users/nurulhidayat/.gradle/caches/transforms-3/4a197fbf763c2a594bc240aa8604253b/transformed/jetified-billing-5.2.1/AndroidManifest.xml:28:13-78
+117            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+117-->[com.android.billingclient:billing:5.2.1] /Users/nurulhidayat/.gradle/caches/transforms-3/4a197fbf763c2a594bc240aa8604253b/transformed/jetified-billing-5.2.1/AndroidManifest.xml:29:13-96
+118            android:exported="false"
+118-->[com.android.billingclient:billing:5.2.1] /Users/nurulhidayat/.gradle/caches/transforms-3/4a197fbf763c2a594bc240aa8604253b/transformed/jetified-billing-5.2.1/AndroidManifest.xml:30:13-37
+119            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+119-->[com.android.billingclient:billing:5.2.1] /Users/nurulhidayat/.gradle/caches/transforms-3/4a197fbf763c2a594bc240aa8604253b/transformed/jetified-billing-5.2.1/AndroidManifest.xml:31:13-72
+120    </application>
+121
+122</manifest>

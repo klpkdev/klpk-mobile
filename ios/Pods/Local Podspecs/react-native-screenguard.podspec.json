@@ -1,0 +1,21 @@
+{
+  "name": "react-native-screenguard",
+  "version": "0.1.6",
+  "summary": "A Library for preventing screenshot and screen recording for react-native developer, with background screenshot customizable",
+  "homepage": "https://github.com/gbumps/react-native-screenguard/blob/master/README.md",
+  "license": "MIT",
+  "authors": "Thong Bui",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "git": "https://github.com/gbumps/react-native-screenguard.git",
+    "tag": "0.1.6"
+  },
+  "source_files": "ios/**/*.{h,m,mm}",
+  "dependencies": {
+    "React-Core": [
+
+    ]
+  }
+}
